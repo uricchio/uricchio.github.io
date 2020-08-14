@@ -1,6 +1,8 @@
-<!DOCTYPE html>
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
 <html>
-<title>Research page for Lawrence H. Uricchio, PhD</title>
+<head>
+<title>Uricchio lab</title>
 <meta charset="UTF-8">
 <style>
 h1 {
@@ -20,23 +22,24 @@ h2 {
 	line-height: 26.4px;
 }
 h3 {
+        position: static;
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 16px;
 	font-style: normal;
 	font-variant: normal;
 	font-weight: 500;
-	line-height: 15.4px;
+	line-height: 5px;
 }
 a { 
     color: blue;
 }
 p {
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-	font-size: 15px;
+	font-size: 14px;
 	font-style: normal;
 	font-variant: normal;
 	font-weight: 400;
-	line-height: 20px;
+	line-height: 18px;
 }
 blockquote {
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -56,11 +59,11 @@ pre {
 }
 ul {
         font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-        font-size: 15px;
+        font-size: 14px;
         font-style: normal;
         font-variant: normal;
         font-weight: 400;
-        line-height: 20px
+        line-height: 18px
 }
 ol {
         font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -68,8 +71,9 @@ ol {
         font-style: normal;
         font-variant: normal;
         font-weight: 400;
-        line-height: 20px
+        line-height: 20px;
 }
+
 li.p {
         margin-left: 0;
         margin-right: 10%;
@@ -79,7 +83,8 @@ li.p {
 #nav {
 	width: 100%;
 	float: left;
-	margin: 0 0 3em 0;
+	font-size: 15px;
+        margin: 0 0 3em 0;
 	padding: 0;
 	list-style: none;
 	background-color: #f2f2f2;
@@ -97,26 +102,66 @@ li.p {
 #nav li a:hover {
 	color: #c00;
 	background-color: #fff; }
-</style>
-<h1>Lawrence H. Uricchio</h1>
-<img src="images/banner.png" class="image1" align="left"  width="1200" HSPACE="25" VSPACE="10"/>
 
-<ul id="nav">
-    <li><a href="index.html">About me</a>
+.main {
+  float: left;
+  margin-right: 260px; /* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 200px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+</style>
+</head>
+<body bgcolor="#FFFFFF">
+<BODY BGCOLOR="#FFFFFF" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<!-- Top part with logo, title -->
+<table style="border:5px solid #069;" cellpadding="7" cellspacing="10" width="760" align="left">
+<tr height="90">
+<td colspan="2" height="90">
+<div align="left">
+<table cellpadding="5" cellspacing="0">
+  <tr>
+    <td><font face="ARIAL,helvetica" size="5"><b><span class=bannerText>
+            Uricchio lab @Tufts</span></b></font><img src="images/banner.png" class="image1" align="left"  height="80" HSPACE="15" VSPACE="8"/></td>
+  </tr>
+  </td>
+</table>
+<!-- Left side navigation bars -->
+<tr>
+<td style="border:2px solid gray; background-color:#e6f2ff;" >
+<div align="left">
+<table cellpadding="0" cellspacing="2" width="170">
+ <a class="twitter-timeline" href="https://twitter.com/LawUricchio?ref_src=twsrc%5Etfw">@LawUricchio</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+</table>
+
+<!-- Main content -->
+<td style="border:2px solid gray; background-color:#F5F5F5;" align="left" valign="top"><!-- Table across top with photo -->
+  <table  cellpadding="4" cellspacing="2" align="left">
+
+<ul id="nav" style="font-size: 13px; line-height: 17px">
+    <li><a href="index.html">Home</a>
     <li><a href="research.html">Research projects</a>
     <li><a href="pubs.html">Publications</a>
     <li><a href="teaching.html">Teaching</a>
-    <li><a href="#collabs">Collaborators</a>
-    <li><a href="index.html#contact">Contact</a>
-    <li><a href="https://scholar.google.com/citations?user=XyVUpZYAAAAJ&hl=en">Google scholar</a>
+    <li><a href="people.html">People</a>
     <li><a href="CV.pdf">CV</a>
     <li><a href="https://github.com/uricchio">GitHub</a>
     <li><a href="https://twitter.com/LawUricchio">twitter</a>
 </ul>
-
+</table>
 
 <div id="collabs">
-<h2 style="clear: both;">Collaborators & Mentors</h2>
+<h3 style="clear: both;">Lawrence H. Uricchio</h3>
+
+<p> Lawrence graduated from UCSF with a PhD in bioinformatics in 2014, where he was supervised by Ryan Hernandez. He then completed
+postdocs at Stanford University (with Noah Rosenberg and Erin Mordecai) and UC Berkeley (with Mike Boots and Becca Tarvin). </p>  
+<br>
+<h3 style="clear: both;">External collaborators</h3>
 <h3 style="margin-left: 1%">Berkeley</h3>
 <ul style="margin-left: 2%">
   <li class="p"><a href="https://bootslab.org/">Mike Boots</a> (<i>Evolution & ecology of infectious disease</i>)</li>

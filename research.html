@@ -1,6 +1,8 @@
-<!DOCTYPE html>
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
 <html>
-<title>Research page for Lawrence H. Uricchio, PhD</title>
+<head>
+<title>Uricchio lab</title>
 <meta charset="UTF-8">
 <style>
 h1 {
@@ -20,26 +22,24 @@ h2 {
 	line-height: 26.4px;
 }
 h3 {
+        position: static;
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 16px;
 	font-style: normal;
 	font-variant: normal;
 	font-weight: 500;
-	line-height: 15.4px;
-        text-align: left;
-        position: relative;
+	line-height: 5px;
 }
-
 a { 
     color: blue;
 }
 p {
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-	font-size: 15px;
+	font-size: 13px;
 	font-style: normal;
 	font-variant: normal;
 	font-weight: 400;
-	line-height: 20px;
+	line-height: 17px;
 }
 blockquote {
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -59,11 +59,11 @@ pre {
 }
 ul {
         font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-        font-size: 15px;
+        font-size: 13px;
         font-style: normal;
         font-variant: normal;
         font-weight: 400;
-        line-height: 20px
+        line-height: 17px
 }
 ol {
         font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -82,7 +82,8 @@ li.p {
 #nav {
 	width: 100%;
 	float: left;
-	margin: 0 0 3em 0;
+	font-size: 15px;
+        margin: 0 0 3em 0;
 	padding: 0;
 	list-style: none;
 	background-color: #f2f2f2;
@@ -100,32 +101,63 @@ li.p {
 #nav li a:hover {
 	color: #c00;
 	background-color: #fff; }
+
+.main {
+  float: left;
+  margin-right: 260px; /* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+
 </style>
-<h1>Lawrence H. Uricchio</h1>
-<img src="images/banner.png" class="image1" align="left"  width="1200" HSPACE="25" VSPACE="10"/>
+</head>
+<body bgcolor="#FFFFFF">
+<BODY BGCOLOR="#FFFFFF" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<!-- Top part with logo, title -->
+<table style="border:5px solid #069;" cellpadding="7" cellspacing="10" width="760" align="left">
+<tr height="90">
+<td colspan="2" height="90">
+<div align="left">
+<table cellpadding="5" cellspacing="0">
+  <tr>
+    <td><font face="ARIAL,helvetica" size="5"><b><span class=bannerText>
+            Uricchio lab @Tufts</span></b></font><img src="images/banner.png" class="image1" align="left"  height="80" HSPACE="15" VSPACE="8"/></td>
+  </tr>
+  </td>
+</table>
+<!-- Left side navigation bars -->
+<tr>
+<td style="border:2px solid gray; background-color:#e6f2ff;" >
+<div align="left">
+<table cellpadding="0" cellspacing="2" width="170">
+ <a class="twitter-timeline" href="https://twitter.com/LawUricchio?ref_src=twsrc%5Etfw">@LawUricchio</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+</table>
 
+<!-- Main content -->
+<td style="border:2px solid gray; background-color:#F5F5F5;" align="left" valign="top"><!-- Table across top with photo -->
+  <table  cellpadding="4" cellspacing="2" align="left">
 
-<ul id="nav">
-    <li><a href="index.html">About me</a>
+<ul id="nav" style="font-size: 13px; line-height: 17px">
+    <li><a href="index.html">Home</a>
     <li><a href="research.html">Research projects</a>
     <li><a href="pubs.html">Publications</a>
     <li><a href="teaching.html">Teaching</a>
-    <li><a href="collaborators.html">Collaborators</a>
-    <li><a href="index.html#contact">Contact</a>
-    <li><a href="https://scholar.google.com/citations?user=XyVUpZYAAAAJ&hl=en">Google scholar</a>
+    <li><a href="people.html">People</a>
     <li><a href="CV.pdf">CV</a>
     <li><a href="https://github.com/uricchio">GitHub</a>
     <li><a href="https://twitter.com/LawUricchio">twitter</a>
 </ul>
-
+</table>     
+ 
 <div  id="research"> 
-    <h3 style="clear: both; margin-left: 1%">The big picture</h3>
+    <h2 style="clear: both; margin-left: 1%">The big picture</h2>
     <div style="margin-left: 2%"> 
-     <p> <!-- Many species worldwide are experiencing rapid, human-induced changes in their environment that threaten their 
+     <p> Many species worldwide are experiencing rapid, human-induced changes in their environment that threaten their 
         persistence, but we still struggle to predict which species will adapt to these changing circumstances, and 
-        how adaptation may affect species composition in nature.  -->
-        I develop evolutionary models and statistical inference 
-        techniques to detect selection signals in genomic and phenotypic data.  Long-term goals of my work are to
+        how adaptation may affect species composition in nature. 
+        We develop evolutionary models and statistical inference 
+        techniques to detect selection signals in genomic and phenotypic data.  Long-term goals of our work are to
         use these models to predict when species maintain sufficient genetic variation to adapt to rapid environmental change,
         and to understand how evolutionary processes affect our ability to detect the genetic variation underlying heritable
         traits.
@@ -140,13 +172,13 @@ li.p {
 <p>   
     <img src="images/method.jpeg" align=right width=300  HSPACE="25" VSPACE="10"/>
    <br>
-   I am developing new methods to infer adaptation rate and strength from genomic data along with my colleague <a href="https://enardlab.com/"> 
+   We are developing new methods to infer adaptation rate and strength from genomic data along with my colleague <a href="https://enardlab.com/"> 
    David Enard </a>.
    <a href="https://rdcu.be/bAxPc">Our work</a> 
    argues that weakly beneficial alleles are likely to be a major contributor to the adaptation process, and that viruses have driven
    a preponderance of strongly fitness-increasing adaptation in recent human evolution. Our findings
    suggest a high adaptive potential among mutations that are currently variable within populations, perhaps allowing
-   species to adapt to changing circumstances on very fast time-scales.  I am currently extending this work in 
+   species to adapt to changing circumstances on very fast time-scales.  We are currently extending this work in 
    collaboration with the Corbett-Detig lab at UCSC to study this phenomenon across a much wider range of species.
    This work relies heavily on our ability 
    to perform <a href="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4012482/">computationally efficient simulations of linked 
@@ -194,10 +226,10 @@ Our results provide a contrast to many earlier studies that focused on undisturb
     </ul>
     <p>
     To date, it's been very difficult to tease apart these possible explanations and make sense of how selection does (or does
-    not) act on common, heritable human diseases.  My work has mostly focused on the first three possibilities.  I
+    not) act on common, heritable human diseases.  My work has mostly focused on the first three possibilities.  We
     use population genetic models of natural selection and complex phenotypes to model recent (~100,000 yrs)
     human evolutionary history, and to infer how <a href="https://onlinelibrary.wiley.com/doi/full/10.1002/evl3.97">natural selection shapes genetic variation</a>.
-    Together with my PhD advisor Ryan Hernandez, I showed that
+    During my PhD, we showed that
     state-of-the-art techniques for detecting risk loci in the genome
     <a href="http://genome.cshlp.org/content/26/7/863">are not as effective as one would hope</a>
     when selection acts directly on trait-related variation.  We also showed that selection on RNA expression is likely
@@ -213,3 +245,9 @@ Our results provide a contrast to many earlier studies that focused on undisturb
 
 <hr>
 
+</td>
+</tr>
+</table>
+
+</body>
+</html>

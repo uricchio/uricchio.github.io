@@ -1,6 +1,8 @@
-<!DOCTYPE html>
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
 <html>
-<title>Research page for Lawrence H. Uricchio, PhD</title>
+<head>
+<title>Uricchio lab</title>
 <meta charset="UTF-8">
 <style>
 h1 {
@@ -20,23 +22,24 @@ h2 {
 	line-height: 26.4px;
 }
 h3 {
+        position: static;
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 16px;
 	font-style: normal;
 	font-variant: normal;
 	font-weight: 500;
-	line-height: 15.4px;
+	line-height: 5px;
 }
 a { 
     color: blue;
 }
 p {
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-	font-size: 15px;
+	font-size: 14px;
 	font-style: normal;
 	font-variant: normal;
 	font-weight: 400;
-	line-height: 20px;
+	line-height: 18px;
 }
 blockquote {
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -56,11 +59,11 @@ pre {
 }
 ul {
         font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-        font-size: 15px;
+        font-size: 14px;
         font-style: normal;
         font-variant: normal;
         font-weight: 400;
-        line-height: 20px
+        line-height: 18px
 }
 ol {
         font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -68,8 +71,9 @@ ol {
         font-style: normal;
         font-variant: normal;
         font-weight: 400;
-        line-height: 20px
+        line-height: 20px;
 }
+
 li.p {
         margin-left: 0;
         margin-right: 10%;
@@ -79,7 +83,8 @@ li.p {
 #nav {
 	width: 100%;
 	float: left;
-	margin: 0 0 3em 0;
+	font-size: 15px;
+        margin: 0 0 3em 0;
 	padding: 0;
 	list-style: none;
 	background-color: #f2f2f2;
@@ -97,104 +102,112 @@ li.p {
 #nav li a:hover {
 	color: #c00;
 	background-color: #fff; }
-</style>
-<h1>Lawrence H. Uricchio</h1>
-<img src="images/banner.png" class="image1" align="left"  width="1200" HSPACE="25" VSPACE="10"/>
 
-<ul id="nav">
-    <li><a href="index.html">About me</a>
+.main {
+  float: left;
+  margin-right: 260px; /* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 200px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+</style>
+</head>
+<body bgcolor="#FFFFFF">
+<BODY BGCOLOR="#FFFFFF" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<!-- Top part with logo, title -->
+<table style="border:5px solid #069;" cellpadding="7" cellspacing="10" width="760" align="left">
+<tr height="90">
+<td colspan="2" height="90">
+<div align="left">
+<table cellpadding="5" cellspacing="0">
+  <tr>
+    <td><font face="ARIAL,helvetica" size="5"><b><span class=bannerText>
+            Uricchio lab @Tufts</span></b></font><img src="images/banner.png" class="image1" align="left"  height="80" HSPACE="15" VSPACE="8"/></td>
+  </tr>
+  </td>
+</table>
+<!-- Left side navigation bars -->
+<tr>
+<td style="border:2px solid gray; background-color:#e6f2ff;" >
+<div align="left">
+<table cellpadding="0" cellspacing="2" width="170">
+ <a class="twitter-timeline" href="https://twitter.com/LawUricchio?ref_src=twsrc%5Etfw">@LawUricchio</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+</table>
+
+<!-- Main content -->
+<td style="border:2px solid gray; background-color:#F5F5F5;" align="left" valign="top"><!-- Table across top with photo -->
+  <table  cellpadding="4" cellspacing="2" align="left">
+
+<ul id="nav" style="font-size: 13px; line-height: 17px">
+    <li><a href="index.html">Home</a>
     <li><a href="research.html">Research projects</a>
-    <li><a href="#pubs">Publications</a>
+    <li><a href="pubs.html">Publications</a>
     <li><a href="teaching.html">Teaching</a>
-    <li><a href="collaborators.html">Collaborators</a>
-    <li><a href="index.html#contact">Contact</a>
-    <li><a href="https://scholar.google.com/citations?user=XyVUpZYAAAAJ&hl=en">Google scholar</a>
+    <li><a href="people.html">People</a>
     <li><a href="CV.pdf">CV</a>
     <li><a href="https://github.com/uricchio">GitHub</a>
     <li><a href="https://twitter.com/LawUricchio">twitter</a>
 </ul>
-<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
+</table>
 
 <div id="pubs">
-<h2 style="clear: both;">Publications</h2>
-
-<h3 style="margin-left: 1%">In progress</h3>
-
+<h2>Publications and preprints</h2>
+<h3 style="margin-left: 1%"> Google scholar</h3>
+<ul style="margin-left: 2%">
+ <li><a href="https://scholar.google.com/citations?hl=en&user=XyVUpZYAAAAJ&view_op=list_works&sortby=pubdate">Lawrence's profile</a>
+</ul>
+<h3 style="margin-left: 1%">Evolution & ecology</h3>
 <ol style="margin-left: 2%">
-<table style="width:90%" cellspacing="3">
+    <li class="p"><b>Uricchio LH</b>, 2020. Evolutionary perspectives on polygenic selection, missing heritability, and GWAS. <i>Human Genetics</i>, in press. <a href="https://rdcu.be/bGOrT">Link to paper</a></li>
 
+  <li class="p">Castellano D, <b>Uricchio LH</b>, Munch K, Enard D, 2019. Viruses rule over adaptation in conserved human proteins. <a href="https://www.biorxiv.org/content/10.1101/555060v1"><i>preprint available at bioRxiv</i></a></li>
+    
+   <li class="p">Hernandez RD, <b>Uricchio LH</b>, Hartman K,  Ye CJ, Dahl A, Zaitlen N, 2019. Ultrarare variants drive substantial
+cis-heritability of human gene expression. <i>Nature Genetics</i>, in press. </li>
+    
 
-  <tr><td><li class="p">Castellano D, <b>Uricchio LH</b>, Munch K, Enard D, 2019. Viruses rule over adaptation in conserved human proteins. <a href="https://www.biorxiv.org/content/10.1101/555060v1"><i>preprint available at bioRxiv</i></a></li><td><div class='altmetric-embed' data-badge-type='donut' data-doi="10.1101/555060"></div></td></tr>
+    <li class="p"><b>Uricchio LH</b>, Petrov DA,  Enard D, 2019. Exploiting selection at linked sites to infer the rate and strength of adaptation. <i>Nature Ecology & Evolution</i>, 3, pp. 977-984. <a href="https://rdcu.be/bAxPc">Link to paper</a></li>
 
+    
+    <li class="p"><b>Uricchio LH*</b>, Kitano HC*, Gusev A, Zaitlen NA, 2019. An evolutionary compass for detecting signals of polygenic selection and mutational bias. <i> Evolution Letters</i>, 3(1), pp. 69-79. </li>
 
-</table>
+  <li class="p"><b>Uricchio LH</b>, Daws SC, Spear ER, Mordecai EA, 2019. Priority effects and non-hierarchical competition shape species composition in a complex grassland community. <i> The American Naturalist</i>, 193(2), pp. 213-226.</li>
+
+   <li class="p">Goldberg A, <b>Uricchio LH</b>, and Rosenberg NA, 2018. Natural selection in human populations. <i> Oxford Bibliographies in Evolutionary Biology.</i>
+
+  <li class="p"><b>Uricchio LH</b>, Warnow T, and Rosenberg NA, 2016. An analytical upper bound on the number of loci required for all splits of a species tree to appear in a set of gene trees. <i>BMC Bioinformatics</i>, 17(14), p.417.</li>
+
+<li class="p"><b>Uricchio LH</b>, Zaitlen NA, Ye CJ, Witte JS, and Hernandez RD, 2016. Selection and explosive growth alter genetic architecture and hamper the detection of causal rare variants. <i>Genome Research</i>, 26(7), pp.863-873.</li>
+
+<li class="p"><b>Uricchio LH</b> and Hernandez RD, 2014. Robust forward simulations of recurrent hitchhiking. <i>Genetics</i>, 197(1), pp.221-236.</li>
+
+<li class="p">Maher MC*, <b>Uricchio LH</b>*, Torgerson DG, and Hernandez RD, 2013. Population genetics of rare variants and complex diseases. <i>Human Heredity</i>, 74(3-4), pp.118-128. (<i>* co-first authors</i>)</li>
 </ol>
 
-<h3 style="margin-left: 1%">Journal Articles</h3>
+<h3 style="margin-left: 1%">Statistical, medical, & molecular genetics</h3>
 <ol style="margin-left: 2%">
-<table style="width:90%" cellspacing="3">
-<tr>
-    <tr><td><li class="p">Hernandez RD, <b>Uricchio LH</b>, Hartman K,  Ye CJ, Dahl A, Zaitlen N, 2019. Ultrarare variants drive substantial
-cis-heritability of human gene expression. <i>Nature Genetics</i>, in press. </li><td><div class='altmetric-embed' data-badge-type='donut' data-doi="10.1038/s41588-019-0487-7"></div></td></tr>
-    
-    <tr><td><li class="p"><b>Uricchio LH</b>, 2019. Evolutionary perspectives on polygenic selection, missing heritability, and GWAS. <i>Human Genetics</i>, in press. <a href="https://rdcu.be/bGOrT">Link to paper</a></li><td><div class='altmetric-embed' data-badge-type='donut' data-doi="10.1007/s00439-019-02040-6"></div></tr></td>
+  <li class="p">Gignoux CR, Torgerson DG, Pino-Yanes M, <b>Uricchio LH</b>, and Galanter J et al, 2019.  An admixture mapping meta-analysis implicates genetic variation at 18q21 with asthma susceptibility in Latinos. <i>Journal of Allergy and Clinical Immunology</i>, 143(3), pp. 957–969.</li></li>
 
-    <tr><td><li class="p"><b>Uricchio LH</b>, Petrov DA,  Enard D, 2019. Exploiting selection at linked sites to infer the rate and strength of adaptation. <i>Nature Ecology & Evolution</i>, 3, pp. 977-984. <a href="https://rdcu.be/bAxPc">Link to paper</a></li><td><div class='altmetric-embed' data-badge-type='donut' data-doi="/10.1038/s41559-019-0890-6"></div></tr></td>
+<li class="p"><b>Uricchio LH</b>, Torres R, Witte JS, and Hernandez RD, 2015. Population genetic simulations of complex phenotypes with implications for rare variant association tests.<i> Genetic Epidemiology</i>, 39(1), pp.35-44.</li>
 
-    <tr><td><li class="p">Severon AL*, <b>Uricchio LH*</b>, Arbisser IM*,  Glassberg EC, Rosenberg NA, 2019. Analysis of author gender in TPB, 1991-2018. <i>Theoretical Population Biology</i>, 179, pp. 1-6.</a></li><td><div class='altmetric-embed' data-badge-type='donut' data-doi="10.1016/j.tpb.2019.04.001"></tr></td> 
-    
-    <tr><td><li class="p"><b>Uricchio LH*</b>, Kitano HC*, Gusev A, Zaitlen NA, 2019. An evolutionary compass for detecting signals of polygenic selection and mutational bias. <i> Evolution Letters</i>, 3(1), pp. 69-79. </li><td><div class='altmetric-embed' data-badge-type='donut' data-doi="10.1002/evl3.97"></td></tr>
+<li class="p"><b>Uricchio LH</b>, Chong JX, Ross KD, Ober C, and Nicolae DL, 2012. Accurate imputation of rare and common variants in a founder population from a small number of sequenced individuals. <i>Genetic Epidemiology</i>, 36(4), pp.312-319.</li>
 
-<tr>
-    <td><li class="p"><b>Uricchio LH</b>, Daws SC, Spear ER, Mordecai EA, 2019. Priority effects and non-hierarchical competition shape species composition in a complex grassland community. <i> The American Naturalist</i>, 193(2), pp. 213-226.</li><td><div class='altmetric-embed' data-badge-type='donut' data-doi="10.1086/701434"></td>
-</tr>
+<li class="p">Çalışkan M, Chong JX, <b>Uricchio L</b>, Anderson R, Chen P et al, 2011. Exome sequencing reveals a novel mutation for autosomal recessive non-syndromic mental retardation in the TECR gene on chromosome 19p13. <i>Human Molecular Genetics</i>, 20(7), pp.1285-1289.</li>
 
-<tr>
-   <td><li class="p">Gignoux CR, Torgerson DG, Pino-Yanes M, <b>Uricchio LH</b>, and Galanter J et al, 2019.  An admixture mapping meta-analysis implicates genetic variation at 18q21 with asthma susceptibility in Latinos. <i>Journal of Allergy and Clinical Immunology</i>, 143(3), pp. 957–969.</li></li><td><div class='altmetric-embed' data-badge-type='donut' data-doi="10.1016/j.jaci.2016.08.057"></td>
-</tr>   
-
-<tr>
-   <td><li class="p">Goldberg A, <b>Uricchio LH</b>, and Rosenberg NA, 2018. Natural selection in human populations. <i> Oxford Bibliographies in Evolutionary Biology.</i></td>
-</tr>
-
-
-<tr>
-<td><li class="p"><b>Uricchio LH</b>, Warnow T, and Rosenberg NA, 2016. An analytical upper bound on the number of loci required for all splits of a species tree to appear in a set of gene trees. <i>BMC Bioinformatics</i>, 17(14), p.417.</li></td><td></td>
-</tr>
-
-
-<tr>
- <td><li class="p"><b>Uricchio LH</b>, Zaitlen NA, Ye CJ, Witte JS, and Hernandez RD, 2016. Selection and explosive growth alter genetic architecture and hamper the detection of causal rare variants. <i>Genome Research</i>, 26(7), pp.863-873.</li></td>
-</tr>
-
-<tr>
-   <td><li class="p"><b>Uricchio LH</b>, Torres R, Witte JS, and Hernandez RD, 2015. Population genetic simulations of complex phenotypes with implications for rare variant association tests.<i> Genetic Epidemiology</i>, 39(1), pp.35-44.</li></td><td></td>
-</tr>
-
-<tr>
-   <td><li class="p"><b>Uricchio LH</b> and Hernandez RD, 2014. Robust forward simulations of recurrent hitchhiking. <i>Genetics</i>, 197(1), pp.221-236.</li></td><td></td>
-</tr>
-
-<tr>
-   <td><li class="p">Maher MC*, <b>Uricchio LH</b>*, Torgerson DG, and Hernandez RD, 2013. Population genetics of rare variants and complex diseases. <i>Human Heredity</i>, 74(3-4), pp.118-128. (<i>* co-first authors</i>)</li></td><td></td>
-</tr>
-
-<tr>
-   <td><li class="p"><b>Uricchio LH</b>, Chong JX, Ross KD, Ober C, and Nicolae DL, 2012. Accurate imputation of rare and common variants in a founder population from a small number of sequenced individuals. <i>Genetic Epidemiology</i>, 36(4), pp.312-319.</li></td><td></td>
-</tr>
-
-<tr>
-   <td><li class="p">Çalışkan M, Chong JX, <b>Uricchio L</b>, Anderson R, Chen P et al, 2011. Exome sequencing reveals a novel mutation for autosomal recessive non-syndromic mental retardation in the TECR gene on chromosome 19p13. <i>Human Molecular Genetics</i>, 20(7), pp.1285-1289.</li></td><td></td>
-</tr>
-
-<tr>
-   <td><li class="p">Miller LS, Pietras EM, <b>Uricchio LH</b>, Hirano K, and Rao S et al, 2007. Inflammasome-mediated production of IL-1β is required for neutrophil recruitment against Staphylococcus aureus in vivo. <i>The Journal of Immunology</i>, 179(10), pp.6933-6942.</li></td><td></td>
-</tr>
-
-<tr>
-   <td><li class="p">Pattanayak AK, Brooks DW, de La Fuente A, <b>Uricchio L</b>, Holby E, Krawisz D, and Silva JI, 2005. Coarse-grained entropy decrease and phase-space focusing in Hamiltonian dynamics. <i>Physical Review A</i>, 72(1), p.013406.</li></td><td></td>
-</tr>
-</table>
+<li class="p">Miller LS, Pietras EM, <b>Uricchio LH</b>, Hirano K, and Rao S et al, 2007. Inflammasome-mediated production of IL-1β is required for neutrophil recruitment against Staphylococcus aureus in vivo. <i>The Journal of Immunology</i>, 179(10), pp.6933-6942.</li>
 
 </ol>
+
+<h3 style="margin-left: 1%">Miscellaneous topics</h3> 
+<ol style="margin-left: 2%">
+    <li class="p">Severon AL*, <b>Uricchio LH*</b>, Arbisser IM*,  Glassberg EC, Rosenberg NA, 2019. Analysis of author gender in TPB, 1991-2018. <i>Theoretical Population Biology</i>, 179, pp. 1-6.</a></li>
+
+<li class="p">Pattanayak AK, Brooks DW, de La Fuente A, <b>Uricchio L</b>, Holby E, Krawisz D, and Silva JI, 2005. Coarse-grained entropy decrease and phase-space focusing in Hamiltonian dynamics. <i>Physical Review A</i>, 72(1), p.013406.</li>
+</ol>
+</table>
 
